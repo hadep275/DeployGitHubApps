@@ -39,7 +39,7 @@ const Step3 = () => {
       <h2>Step 3: Install gh-pages Package</h2>
       <p>Install the gh-pages package to simplify deployment:</p>
       <code onClick={handleCopyClick} style={{ cursor: 'pointer', position: 'relative' }}>
-npm install gh-pages --save-dev {showNotification && (
+npm install --save-dev gh-pages {showNotification && (
           <div className="notification">Code copied!</div>
         )}
         </code>

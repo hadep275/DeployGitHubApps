@@ -30,7 +30,6 @@ const Step7 = () => {
       <p>After making changes to <code>package.json</code> and <code>vite.config.js</code>, add and commit the updated files:</p>
       <pre>
         {`git add .
-        
 git commit -m "First Commit"`}
       </pre>
     </div>

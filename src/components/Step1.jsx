@@ -24,7 +24,7 @@ const Step1 = () => {
       <h2>Step 1: Create a React App</h2>
       <p>Open your terminal and run:</p>
       <code onClick={handleCopyClick} style={{ cursor: 'pointer', position: 'relative' }}>
-        npx create-react-app my-react-app
+        npx create vite@latest
         {showNotification && (
           <div className="notification">Code copied!</div>
         )}
