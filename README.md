@@ -33,7 +33,7 @@ Before you begin, ensure that you have the following installed:
 - Node.js
 - npm (Node Package Manager)
 
-For installation guides, visit [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/).
+For installation guides, visit [Node.js](https://nodejs.org/){:target="_blank"} and [npm](https://www.npmjs.com/).
 
 ## Create a React App
 
