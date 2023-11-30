@@ -17,24 +17,27 @@ const renderStep = () => {
         return <Step6 />;
       case 7:
         return <Step7 />;
+      case 8:
+        return <Step8 />;
+      case 9:
+        return <Step9 />;
   
       default:
         return null;
     }
   };
 
-const Step7 = () => {
+const Step9 = () => {
   return (
     <div className="container">
-      <h2>Step 7: Add and Commit Updated Files</h2>
-      <p>After making changes to <code>package.json</code> and <code>vite.config.js</code>, add and commit the updated files:</p>
+      <h2>Step 9: Deploy To GitHub Pages</h2>
+      <p>Now, deploy your React app to GitHub Pages using the following command:</p>
       <pre>
-        {`git add .
-        
-git commit -m "First Commit"`}
+        {`npm run deploy`}
       </pre>
+      <p>This command will build your app and deploy it to the GitHub Pages branch specified in your <code>package.json</code>.</p>
     </div>
   );
 };
 
-export default Step7;
+export default Step9;

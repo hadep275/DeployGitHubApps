@@ -26,8 +26,9 @@ const Step5 = () => {
       <p>If you are using Vite for your project, configure the <code>vite.config.js</code> file to set the base:</p>
       <pre>
         {`// vite.config.js
-export default {
-  base: '/your-repo-name/', // Replace with your repository name
+    export default {
+      base: '/your-repo-name/', 
+  // Replace with your repository name
 }`}
       </pre>
       <p>Ensure that the <code>base</code> property matches your repository name.</p>

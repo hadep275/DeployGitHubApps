@@ -7,6 +7,8 @@ import Step5 from './Step5';
 import Step6 from './Step6';
 import Step7 from './Step7';
 import Step8 from './Step8';
+import Step9 from './Step9';
+import Step10 from './Step10';
 
 
 const Guide = () => {
@@ -31,6 +33,10 @@ const Guide = () => {
         return <Step7 />;
       case 8:
         return <Step8 />;
+      case 9:
+        return <Step9 />;
+      case 10:
+        return <Step10 />;
 
       default:
         return null;

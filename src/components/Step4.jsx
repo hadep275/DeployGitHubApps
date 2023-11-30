@@ -23,10 +23,12 @@ const Step4 = () => {
       <p>Edit the <code>package.json</code> file to include deployment scripts and your custom domain:</p>
       <pre>
         {`"homepage": "https://your-username.github.io/your-repo-name",
-          "scripts": {
-          "predeploy": "npm run build",
-          "deploy": "gh-pages -d build"
-        }`}
+
+
+"scripts": {
+                          "predeploy": "npm run build",
+                          "deploy": "gh-pages -d build"
+              }`}
       </pre>
       <p>Replace <code>your-username</code> and <code>your-repo-name</code> with your GitHub username and repository name.</p>
     </div>

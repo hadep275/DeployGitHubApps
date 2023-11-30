@@ -50,6 +50,7 @@ body {
   }
   
   .container {
+    width: fit-content;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -122,4 +123,22 @@ body {
 
 .notification.hidden {
   opacity: 0;
+}
+
+
+@keyframes confettiAnimation {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(500px) rotate(360deg);
+  }
+}
+
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #f00; /* You can customize the color */
+  animation: confettiAnimation 2s linear infinite;
 }
