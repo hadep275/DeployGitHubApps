@@ -2,7 +2,7 @@
 
 Welcome to the React GitHub Pages Deployment Guide! This comprehensive guide will walk you through the process of setting up, building, and deploying your React app on GitHub Pages.
 
-![screencapture-localhost-5173-DeployGitHubApps-2023-11-29-21_55_42](https://github.com/hadep275/DeployGitHubApps/assets/65734173/a7b08808-39e0-42e3-a603-58e0ff924a42)(https://hadep275.github.io/DeployGitHubApps/)
+![screencapture-localhost-5173-DeployGitHubApps-2023-11-29-21_55_42](https://github.com/hadep275/DeployGitHubApps/assets/65734173/a7b08808-39e0-42e3-a603-58e0ff924a42)[Deploy Link](https://hadep275.github.io/DeployGitHubApps/)
 
 ## Table of Contents
 
@@ -91,30 +91,3 @@ If you have a custom domain, follow the optional steps in your guide to set it u
 ## Conclusion
 
 Your React project is now deployed on GitHub Pages! Explore more about GitHub Pages and React deployment to enhance your skills.
-
-## Visual Enhancements
-
-- Add screenshots, GIFs, or short videos to illustrate each step.
-- Create custom graphics or icons for each section.
-- Use a visually appealing color scheme and typography.
-
-## Interactive Elements
-
-- Add buttons or toggles for a more engaging experience.
-- Use animations or transitions to make the guide dynamic.
-
-## Troubleshooting Section
-
-Include common issues and their solutions. Provide links to relevant documentation or forums.
-
-## Feedback and Further Learning
-
-Encourage users to provide feedback and suggest additional resources for further learning.
-
-## Deploy Your Guide to GitHub Pages
-
-Finally, deploy your guide to GitHub Pages to showcase your skills!
-
-Remember to continuously test your guide to ensure accuracy and improve the user experience.
-
-Good luck with your project!
