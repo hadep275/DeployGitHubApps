@@ -1,6 +1,6 @@
 # Vite + React GitHub Pages Deployment Guide
 
-Welcome to the React GitHub Pages Deployment Guide! This comprehensive guide will walk you through the process of setting up, building, and deploying your React app on [GitHub Pages.](https://hadep275.github.io/DeployGitHubApps/) {:target="_blank"}
+Welcome to the React GitHub Pages Deployment Guide! This comprehensive guide will walk you through the process of setting up, building, and deploying your React app on [GitHub Pages.](https://hadep275.github.io/DeployGitHubApps/){:target="_blank"}
 
 ![screencapture-localhost-5173-DeployGitHubApps-2023-11-29-21_55_42](https://github.com/hadep275/DeployGitHubApps/assets/65734173/a7b08808-39e0-42e3-a603-58e0ff924a42)
 
