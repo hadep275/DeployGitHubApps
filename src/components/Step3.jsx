@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 const renderStep = () => {
+    
     switch (currentStep) {
       case 1:
         return <Step1 />;
@@ -16,11 +17,32 @@ const renderStep = () => {
   
 
 const Step3 = () => {
-  return (
+  const [showNotification, setShowNotification] = useState(false);
+
+    const handleCopyClick = () => {
+      const codeContent = 'npx create-react-app my-react-app'; // Replace with your actual code content
+      navigator.clipboard.writeText(codeContent)
+        .then(() => {
+          setShowNotification(true);
+  
+          setTimeout(() => {
+            setShowNotification(false);
+          }, 1000);
+        })
+        .catch((err) => {
+          console.error('Unable to copy to clipboard', err);
+        });
+    };  
+    
+    return (
     <div className="container">
       <h2>Step 3: Install gh-pages Package</h2>
       <p>Install the gh-pages package to simplify deployment:</p>
-      <code>npm install gh-pages --save-dev</code>
+      <code onClick={handleCopyClick} style={{ cursor: 'pointer', position: 'relative' }}>
+npm install gh-pages --save-dev {showNotification && (
+          <div className="notification">Code copied!</div>
+        )}
+        </code>
       <p>Ready for the next step?</p>
     </div>
   );
