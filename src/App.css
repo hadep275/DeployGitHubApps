@@ -131,14 +131,14 @@ body {
     transform: translateY(0) rotate(0deg);
   }
   100% {
-    transform: translateY(500px) rotate(360deg);
+    transform: translateY(-500px) rotate(360deg);
   }
 }
+
 
 .confetti {
   position: absolute;
   width: 10px;
   height: 10px;
-  background-color: #f00; /* You can customize the color */
   animation: confettiAnimation 2s linear infinite;
 }
